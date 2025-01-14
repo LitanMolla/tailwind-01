@@ -13,12 +13,16 @@ module.exports = {
         grayBG2: '#FDFDFD',
         grayBG3: '#F6F5FF',
         boxBG: '#C4C4C4',
+        reviewBG: '#F8F8FF',
+        serviceBG: '#F6F5FF',
+        serviceItemBG: '#6B62C5',
+        footerBG: '#6B62C5',
       },
       // Colors Part End
       
       // Container Part 
       maxWidth: {
-        container: '1170px',
+        'containerHeader': '1170px',
       },
       // Container Part 
 
@@ -26,6 +30,7 @@ module.exports = {
       fontFamily: {
         open: ['Open Sans'],
         paprika: ['Paprika'],
+        nunito: ['Nunito'],
       },
       // Font Family
 
@@ -38,8 +43,26 @@ module.exports = {
       // backgroundImage
       backgroundImage: {
         bannerBG: "url('../images/bannerBG.jpg')",
+        box1: "url('../images/card1.jpg')",
+        counterbg: "url('../images/counterbg.png')",
+        whybg: "url('../images/whybg.png')",
+        realBG: "url('../images/real.png')",
+        newsBG: "url('../images/newsBG.png')",
       },
       // backgroundImage
+
+      // 
+      borderRadius: {
+        'roundBottom': '0 0 15px 15px',
+      },
+      // 
+      flex: {
+        2: '2 2 0%',
+        3: '3 3 0%', 
+        4: '4 4 0%', 
+        5: '5 5 0%', 
+        6: '6 6 0%', 
+      },
     },
   },
   plugins: [],

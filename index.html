@@ -7,7 +7,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
 
     <!-- Font Asowme -->
@@ -18,8 +18,8 @@
 </head>
 <body>
     <!-- Nav Section Start -->
-     <div class="bg-navColor py-6 w-full fixed w-full left-0 top-0">
-        <div class="container m-auto flex items-center justify-between">
+     <div class="bg-navColor py-6 w-full fixed w-full left-0 top-0 bg-no-repeat bg-center bg-cover">
+        <div class="max-w-containerHeader m-auto flex items-center justify-between">
             <div class="">
                 <picture>
                     <a href="#"><img src="images/Logo.png" alt="Logo"></a>
@@ -45,9 +45,9 @@
     <!-- Banner Section Part Start  -->
      <div class="bg-bannerBG">
         <div class="bg-overlyColor py-60">
-            <div class="container m-auto text-center text-white ">
-                <h1 class="font-open font-bold text-[84px] px-[200px]">You’re Unique.Your Website Should be too</h1>
-                <p class="font-paprika text-2xl px-[400px] leading-10">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
+            <div class="max-w-containerHeader m-auto text-center text-white ">
+                <h1 class="font-open font-bold text-[84px] px-[100px]">You’re Unique.Your Website Should be too</h1>
+                <p class="font-paprika text-2xl px-[220px] leading-10">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
                 <div class="mt-8 flex gap-10 justify-center">
                     <a href="#" class="font-open text-lg font-semibold py-3.5 px-7 bg-secondaryColor text-white rounded-full border-2 border-secondaryColor duration-500 hover:bg-transparent capitalize">get free quoto</a>
                     <a href="#" class="font-open text-lg font-semibold py-3.5 px-7 bg-secondaryColor text-white rounded-full border-2 border-secondaryColor duration-500 hover:bg-transparent">Learn More</a>
@@ -59,14 +59,22 @@
 
     
     <!-- Counter Section Part Start  -->
-     <div class="bg-grayBG">
-        <div class="container m-auto flex justify-around items-start">
-            <div class="h-[350px] w-[270px] border border-black rounded-2xl bg-boxBG"></div>
-            <div class="h-[496px] w-[200px] border border-black rounded-2xl bg-boxBG"></div>
-            <div class="h-[326px] w-[340px] border border-black rounded-2xl bg-boxBG"></div>
-            <div class="h-[482px] w-[270px] border border-black rounded-2xl bg-boxBG"></div>
+     <div class="bg-counterbg bg-no-repeat bg-cover bg-center">
+        <div class="max-w-containerHeader m-auto flex justify-around items-start"> 
+            <div class="h-[190px] w-[270px]">
+                <img src="images/card1.jpg" alt="card1.jpg" class="w-full h-full rounded-roundBottom">
+            </div>
+            <div class="h-[310px] w-[200px]">
+                <img src="images/card2.jpg" alt="card2.jpg" class="w-full h-full rounded-roundBottom">
+            </div>
+            <div class="h-[260px] w-[340px] ">
+                <img src="images/card3.jpg" alt="card2.jpg" class="w-full h-full rounded-roundBottom">
+            </div>
+            <div class="h-[330px] w-[270px]">
+                <img src="images/card4.jpg" alt="card2.jpg" class="w-full h-full rounded-roundBottom">
+            </div>
         </div>
-        <div class="container m-auto mt-24 pb-32">
+        <div class="max-w-containerHeader m-auto mt-24 pb-32">
             <div class="flex justify-around">
                 <div class="text-center">
                     <h1 class="text-6xl text-secondaryColor font-bold">53k</h1>
@@ -90,39 +98,51 @@
     <!-- Counter Section Part End  -->
 
     <!-- Why us Section Part Start  -->
-     <div class="bg-grayBG2 py-24">
-        <div class="container m-auto flex">
+     <div class="bg-whybg bg-no-repeat bg-top bg-cover py-24">
+        <div class="max-w-containerHeader m-auto flex">
             <div class="flex-1">
-                <div class="flex gap-5 items-center bg-white duration-500 hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
+                <div class="flex gap-5 group transition-all duration-500 items-center bg-white hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
                     <picture>
-                        <img src="images/icon.png" alt="Icon">
+                        <svg width="38" height="25" viewBox="0 0 38 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#1BBF00" class="group-hover:fill-red-500 transition-all duration-500"/>
+                            <circle cx="25.5" cy="12.5" r="12.5" fill="#CBC8F0" class="group-hover:fill-green-500 transition-all duration-500"/>
+                        </svg>                            
                     </picture>
                     <div class="">
-                        <p class="font-paprika text-xl mr-20">We solve real-world problems through people and the web.</p>
+                        <p class="font-paprika text-xl">We solve real-world problems through people and the web.</p>
                     </div>
                 </div>
-                <div class="flex gap-5 items-center bg-white duration-500 hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
+                <div class="flex gap-5 group transition-all duration-500 items-center bg-white hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
                     <picture>
-                        <img src="images/icon.png" alt="Icon">
+                        <svg width="38" height="25" viewBox="0 0 38 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#1BBF00" class="group-hover:fill-red-500 transition-all duration-500"/>
+                            <circle cx="25.5" cy="12.5" r="12.5" fill="#CBC8F0" class="group-hover:fill-green-500 transition-all duration-500"/>
+                        </svg>                            
                     </picture>
                     <div class="">
-                        <p class="font-paprika text-xl mr-20">We solve real-world problems through people and the web.</p>
+                        <p class="font-paprika text-xl">We solve real-world problems through people and the web.</p>
                     </div>
                 </div>
-                <div class="flex gap-5 items-center bg-white duration-500 hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
+                <div class="flex gap-5 group transition-all duration-500 items-center bg-white hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
                     <picture>
-                        <img src="images/icon.png" alt="Icon">
+                        <svg width="38" height="25" viewBox="0 0 38 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#1BBF00" class="group-hover:fill-red-500 transition-all duration-500"/>
+                            <circle cx="25.5" cy="12.5" r="12.5" fill="#CBC8F0" class="group-hover:fill-green-500 transition-all duration-500"/>
+                        </svg>                            
                     </picture>
                     <div class="">
-                        <p class="font-paprika text-xl mr-20">We solve real-world problems through people and the web.</p>
+                        <p class="font-paprika text-xl">We solve real-world problems through people and the web.</p>
                     </div>
                 </div>
-                <div class="flex gap-5 items-center bg-white duration-500 hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
+                <div class="flex gap-5 group transition-all duration-500 items-center bg-white hover:shadow-2xl rounded-xl hover:py-10 px-10 mb-5">
                     <picture>
-                        <img src="images/icon.png" alt="Icon">
+                        <svg width="38" height="25" viewBox="0 0 38 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12.5" cy="12.5" r="12.5" fill="#1BBF00" class="group-hover:fill-red-500 transition-all duration-500"/>
+                            <circle cx="25.5" cy="12.5" r="12.5" fill="#CBC8F0" class="group-hover:fill-green-500 transition-all duration-500"/>
+                        </svg>                            
                     </picture>
                     <div class="">
-                        <p class="font-paprika text-xl mr-20">We solve real-world problems through people and the web.</p>
+                        <p class="font-paprika text-xl">We solve real-world problems through people and the web.</p>
                     </div>
                 </div>
             </div>
@@ -135,24 +155,277 @@
      </div>
     <!-- Why us Section Part End  -->
 
-    <!-- Banner Section Part Start  -->
-    <!-- Banner Section Part End  -->
+    <!-- Service Section Part Start  -->
+     <div class="bg-serviceBG py-24">
+        <div class="max-w-containerHeader m-auto">
+            <div class="flex gap-x-7">
+                <div class="flex-1 p-14">
+                    <h1 class="font-open font-bold text-4xl">What We Do</h1>
+                    <p class="font-open text-xl mt-5 mb-14">We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
+                    <a href="#" class="font-open text-lg font-semibold py-3.5 px-7 bg-secondaryColor text-white rounded-full border-2 border-secondaryColor duration-500 hover:bg-transparent hover:text-secondaryColor">Contact Us</a>
+                </div>
+                <div class="flex-1 text-center p-14 group bg-white hover:bg-serviceItemBG transition-all duration-500 rounded-3xl ">
+                    <div class="flex justify-center">
+                        <img src="images/web.png" alt="Service Logo">
+                    </div>
+                    <h1 class="font-open font-bold text-2xl pt-8 group-hover:text-white">Web Design & Dev </h1>
+                    <p class="font-paprika text-lg text-brandColor my-5 px-6 pb-5 group-hover:text-white">Social Media has changed the way we interact & do business while creating</p>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 group-hover:text-white group-hover:border-white" href="#">Read more</a>
+                </div>
+                <div class="flex-1 text-center p-14 group bg-white hover:bg-serviceItemBG transition-all duration-500 rounded-3xl ">
+                    <div class="flex justify-center">
+                        <img src="images/sofw.png" alt="Service Logo">
+                    </div>
+                    <h1 class="font-open font-bold text-2xl pt-8 group-hover:text-white">Software Dev </h1>
+                    <p class="font-paprika text-lg text-brandColor my-5 px-6 pb-5 group-hover:text-white">Content Marketing is the other fold of online advertisement. If you are looking to build</p>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 group-hover:text-white group-hover:border-white" href="#">Read more</a>
+                </div>
+            </div>
+            <div class="flex gap-x-7 mt-7">
+                <div class="flex-1 text-center p-14 group bg-white hover:bg-serviceItemBG transition-all duration-500 rounded-3xl ">
+                    <div class="flex justify-center">
+                        <img src="images/con.png" alt="Service Logo">
+                    </div>
+                    <h1 class="font-open font-bold text-2xl pt-8 group-hover:text-white">Content Writing</h1>
+                    <p class="font-paprika text-lg text-brandColor my-5 px-6 pb-5 group-hover:text-white">Content Marketing is the other fold of online advertisement. If you are looking to build</p>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 group-hover:text-white group-hover:border-white" href="#">Read more</a>
+                </div>
+                <div class="flex-1 text-center p-14 group bg-white hover:bg-serviceItemBG transition-all duration-500 rounded-3xl ">
+                    <div class="flex justify-center">
+                        <img src="images/dig.png" alt="Service Logo">
+                    </div>
+                    <h1 class="font-open font-bold text-2xl pt-8 group-hover:text-white">Digital Marketing</h1>
+                    <p class="font-paprika text-lg text-brandColor my-5 px-6 pb-5 group-hover:text-white">Content Marketing is the other fold of online advertisement. If you are looking to build</p>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 group-hover:text-white group-hover:border-white" href="#">Read more</a>
+                </div>
+                <div class="flex-1 text-center p-14 group bg-white hover:bg-serviceItemBG transition-all duration-500 rounded-3xl ">
+                    <div class="flex justify-center">
+                        <img src="images/support.png" alt="Service Logo">
+                    </div>
+                    <h1 class="font-open font-bold text-2xl pt-8 group-hover:text-white">Support & Training</h1>
+                    <p class="font-paprika text-lg text-brandColor my-5 px-6 pb-5 group-hover:text-white">Content Marketing is the other fold of online advertisement. If you are looking to build</p>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 group-hover:text-white group-hover:border-white" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Service Section Part End  -->
 
-    <!-- Banner Section Part Start  -->
-    <!-- Banner Section Part End  -->
+    <!-- Real Impact Section Part Start  -->
+     <div class="bg-realBG bg-no-repeat bg-cover bg-center py-24">
+        <div class="max-w-containerHeader m-auto">
+            <div class="text-center">
+                <h1 class="font-open text-5xl font-bold">We create real impact</h1>
+                <p class="text-lg font-paprika px-[310px] mt-5">We design, build and support websites and apps for clients worldwide. Create beautiful, eye-catching on-page messages without the need for a developer.</p>
+            </div>
+            <div class="flex items-center">
+                <div class="flex-1">
+                    <div class="flex gap-x-5">
+                        <div class="h-16 w-16">
+                            <img src="images/handlight.png" alt="Img" class="w-full flex-shrink-0">
+                        </div>
+                        <div class="">
+                            <h1 class="font-open font-bold text-3xl">Competitive Analysis</h1>
+                            <p class="font-paprika text-lg text-brandColor pr-40 mt-4">With an all-new look and powerful features, Ekko is the best way to ensure success for your business.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-x-5 mt-10">
+                        <div class="h-16 w-16">
+                            <img src="images/handlight.png" alt="Img" class="w-full flex-shrink-0">
+                        </div>
+                        <div class="">
+                            <h1 class="font-open font-bold text-3xl">Competitive Analysis</h1>
+                            <p class="font-paprika text-lg text-brandColor pr-40 mt-4">With an all-new look and powerful features, Ekko is the best way to ensure success for your business.</p>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Banner Section Part Start  -->
-    <!-- Banner Section Part End  -->
 
-    <!-- Banner Section Part Start  -->
-    <!-- Banner Section Part End  -->
+                <div class="flex-1">
+                    <picture>
+                        <img src="images/realimpactImg.png" alt="" class="w-full">
+                    </picture>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Real Impact Section Part End  -->
 
-    <!-- Banner Section Part Start  -->
-    <!-- Banner Section Part End  -->
+    <!-- Plan Section Part Start  -->
+     <div class="bg-grayBG3 py-24">
+        <div class="max-w-containerHeader m-auto">
+            <div class="text-center">
+                <h1 class="font-open font-bold text-5xl mb-12">Choose The Right Plan</h1>
+            </div>
+            <div class="flex gap-x-7">
+                <div class="flex-1 bg-white rounded-3xl text-center shadow-lg py-14 hover:bg-serviceItemBG transition-all duration-500 group">
+                    <h1 class="font-open font-bold text-3xl group-hover:text-white transition-all duration-500">Basic</h1>
+                    <img src="images/basic.png" alt="" class="w-full my-5">
+                    <h2 class="font-open font-bold text-5xl text-secondaryColor transition-all duration-500">$160</h2>
+                    <p class="font-paprika text-lg text-brandColor mt-3 px-20 group-hover:text-white transition-all duration-500"> Responsive Design Dynamic Elements Service Pages Custom Design & Features</p>
+                </div>
+                <div class="flex-1 bg-white rounded-3xl text-center shadow-lg py-14 hover:bg-serviceItemBG transition-all duration-500 group">
+                    <h1 class="font-open font-bold text-3xl group-hover:text-white transition-all duration-500">Professional</h1>
+                    <img src="images/professional.png" alt="" class="w-full my-5">
+                    <h2 class="font-open font-bold text-5xl text-secondaryColor transition-all duration-500">$260</h2>
+                    <p class="font-paprika text-lg text-brandColor mt-3 px-20 group-hover:text-white transition-all duration-500"> Responsive Design Dynamic Elements Service Pages Custom Design & Features</p>
+                </div>
+                <div class="flex-1 bg-white rounded-3xl text-center shadow-lg py-14 hover:bg-serviceItemBG transition-all duration-500 group">
+                    <h1 class="font-open font-bold text-3xl group-hover:text-white transition-all duration-500">Exclusive</h1>
+                    <img src="images/exclusive.png" alt="" class="w-full my-5">
+                    <h2 class="font-open font-bold text-5xl text-secondaryColor transition-all duration-500">$325</h2>
+                    <p class="font-paprika text-lg text-brandColor mt-3 px-20 group-hover:text-white transition-all duration-500"> Responsive Design Dynamic Elements Service Pages Custom Design & Features</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Plan Section Part End  -->
 
-    <!-- Banner Section Part Start  -->
-    <!-- Banner Section Part End  -->
+    <!-- Review Section Part Start  -->
+     <div class="bg-reviewBG py-24">
+        <div class="max-w-containerHeader m-auto">
+            <div class="text-center">
+                <h1 class="font-open font-bold text-5xl mb-20">What The People Thinks About Us </h1>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl text-center px-[180px] pb-14 leading-10 relative">
+                <div class="absolute top-[-76px] left-1/2 -translate-x-1/2 ">
+                    <picture>
+                        <img src="images/client.png" alt="" class="w-full rounded-full">
+                    </picture>
+                </div>
+                <div class="text-orange-500 pt-24">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="font-paprika text-2xl text-serviceItemBG mt-8 mb-12">Lesser Replenish bearing they’re him cattle kind dominion. You which fill place. Land she’d subdue divided gathering blessed seasons it. Without, wherein days.</p>
+                <h4 class="font-open text-2xl font-bold mb-2">Lukan Depina</h4>
+                <h5 class="font-paprika text-lg text-serviceItemBG">Ceo And Head Of Idea</h5>
+                <div class="absolute top-1/2 -left-40 h-12 w-12 bg-secondaryColor rounded-full transform translate-y-[-50%] flex justify-center items-center transition duration-500 hover:opacity-50">
+                    <i class="fa-solid fa-chevron-left text-white"></i>
+                </div>
+                <div class="absolute top-1/2 -right-40 h-12 w-12 bg-secondaryColor rounded-full transform translate-y-[-50%] flex justify-center items-center transition duration-500 hover:opacity-50">
+                    <i class="fa-solid fa-angle-right text-white"></i>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Review Section Part End  -->
 
+    <!-- News Section Part Start  -->
+     <div class="bg-newsBG bg-no-repeat bg-cover bg-bottom py-24">
+        <div class="max-w-containerHeader m-auto px-20">
+            <div class="">
+                <h1 class="font-open font-bold text-5xl">You May Also Like </h1>
+            </div>
+            <div class="flex mt-14">
+                <div class="w-[40%]">
+                    <picture>
+                        <img src="images/news1.jpg" alt="News img" class="w-full rounded-xl">
+                    </picture>
+                </div>
+                <div class="w-[60%] ml-10">
+                    <div class="flex gap-5">
+                        <p class="font-open text-secondaryColor text-sm">News </p>
+                        <p class="font-open text-sm">By Tomas Nikelson </p>
+                        <p class="font-open text-sm">Posted 5 Hours Ago </p>
+                    </div>
+                    <h2 class="font-open font-bold text-3xl my-8">Punto Pago Allows Quick And Secure Payments For Services In Panama</h2>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 transition-all duration-500" href="#">Read more</a>
+                </div>
+            </div>
+            <div class="flex mt-14">
+                <div class="w-[40%]">
+                    <picture>
+                        <img src="images/news3.jpg" alt="News img" class="w-full rounded-xl">
+                    </picture>
+                </div>
+                <div class="w-[60%] ml-10">
+                    <div class="flex gap-5">
+                        <p class="font-open text-secondaryColor text-sm">News </p>
+                        <p class="font-open text-sm">By Tomas Nikelson </p>
+                        <p class="font-open text-sm">Posted 5 Hours Ago </p>
+                    </div>
+                    <h2 class="font-open font-bold text-3xl my-8">The User Can Also Replenish A Balance Make Remittances </h2>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 transition-all duration-500" href="#">Read more</a>
+                </div>
+            </div>
+            <div class="flex mt-14">
+                <div class="w-[40%]">
+                    <picture>
+                        <img src="images/news2.jpg" alt="News img" class="w-full rounded-xl">
+                    </picture>
+                </div>
+                <div class="w-[60%] ml-10">
+                    <div class="flex gap-5">
+                        <p class="font-open text-secondaryColor text-sm">News </p>
+                        <p class="font-open text-sm">By Tomas Nikelson </p>
+                        <p class="font-open text-sm">Posted 5 Hours Ago </p>
+                    </div>
+                    <h2 class="font-open font-bold text-3xl my-8">The User Can Also Replenish A Balance Make Remittances </h2>
+                    <a class="font-open font-bold text-lg border border-black rounded-full px-5 py-2 transition-all duration-500" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- News Section Part End  -->
+
+    <!-- Footer Section Part Start  -->
+     <div class="bg-footerBG">
+        <div class="max-w-containerHeader m-auto pt-36">
+            <div class="flex gap-x-20">
+                <div class="flex-2 text-white">
+                    <picture>
+                        <img src="images/Logo.png" alt="Logo">
+                    </picture>
+                    <p class="capitalize font-nunito font-semibold text-lg mt-11">Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
+                </div>
+                <div class="flex-3">
+                    <div class="flex">
+                        <div class="flex-1 text-white capitalize">
+                            <p class="font-open font-semibold text-2xl mb-10">Features</p>
+                            <ul>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Home</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">About</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Benifit</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Pricing</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-1 text-white">
+                            <p class="font-open font-semibold text-2xl mb-10">Products</p>
+                            <ul>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Task Management</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Company growth</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Time tracking</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-1 text-white">
+                            <p class="font-open font-semibold text-2xl mb-10">Support</p>
+                            <ul>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Customer service</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Accessibility</a></li>
+                                <li class="font-nunito font-semibold text-xl transition-all duration-500 hover:text-secondaryColor mt-2"><a href="#">Contact us</a></li>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between mt-20 pb-14">
+                <div class="">
+                    <p class="font-nunito text-white text-lg capitalize">@20201 Innovate.All rights reserved.</p>
+                </div>
+                <div class="flex gap-x-10">
+                    <a class="font-nunito text-white text-lg capitalize transition-all duration-500 hover:text-secondaryColor" href="#">Privacy policy</a>
+                    <a class="font-nunito text-white text-lg capitalize transition-all duration-500 hover:text-secondaryColor" href="#">Terms & condition</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Footer Section Part End  -->
+    
     <!-- Banner Section Part Start  -->
     <!-- Banner Section Part End  -->
 
